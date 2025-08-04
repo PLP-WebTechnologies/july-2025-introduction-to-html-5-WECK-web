@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of HTML5 structure, accessibility, and SEO with a simple and semantic web page example.">
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Web Development, Semantic HTML">
+    <meta name="author" content="Your Name">
+    <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+<body>
+    <!-- Header with site branding -->
+    <header>
+        <h1>HTML5 Accessibility & SEO Basics</h1>
+        <p>Building a better web with semantics, accessibility, and optimization</p>
+    </header>
+
+    <!-- Navigation landmark -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="Learn about this page">About</a></li>
+            <li><a href="#accessibility" title="Read accessibility tips">Accessibility</a></li>
+            <li><a href="#seo" title="Read SEO tips">SEO</a></li>
+            <li><a href="#contact" title="Contact the author">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content landmark -->
+    <main>
+        <!-- About section -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This page demonstrates how to use HTML5 semantic elements, improve accessibility for all users, and follow basic SEO guidelines for better discoverability.</p>
+        </section>
+
+        <!-- Accessibility section -->
+        <section id="accessibility">
+            <h2>Accessibility Principles</h2>
+            <article>
+                <h3>Why Accessibility Matters</h3>
+                <p>Accessibility ensures that your website can be used by people with disabilities, including those who rely on screen readers or keyboard navigation.</p>
+            </article>
+            <article>
+                <h3>Best Practices</h3>
+                <ul>
+                    <li>Use proper heading hierarchy (H1 → H2 → H3).</li>
+                    <li>Provide descriptive link text.</li>
+                    <li>Include <code>alt</code> attributes for images.</li>
+                    <li>Use ARIA attributes when necessary to enhance understanding for assistive technologies.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- SEO section -->
+        <section id="seo">
+            <h2>SEO Best Practices</h2>
+            <article>
+                <h3>Why SEO Is Important</h3>
+                <p>SEO (Search Engine Optimization) helps search engines understand your content, improving your site's visibility in search results.</p>
+            </article>
+            <article>
+                <h3>SEO Tips</h3>
+                <ol>
+                    <li>Use relevant keywords naturally in your content.</li>
+                    <li>Write descriptive meta tags (title, description).</li>
+                    <li>Ensure mobile-friendly design with a responsive layout.</li>
+                    <li>Structure your HTML with semantic tags for better crawling.</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer landmark -->
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        </section>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
